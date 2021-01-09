@@ -8,7 +8,7 @@ window.config(padx=5, pady=5)
 
 # functions
 def miles_to_km():
-    result = int(miles_entry.get()) * 1.60934
+    result = float(miles_entry.get()) * 1.60934
     kilo_label_output['text'] = '{:.2f}'.format(result)
 
 
